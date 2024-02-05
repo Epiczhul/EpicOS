@@ -6,3 +6,4 @@ if ! test $(whoami) == "distbuild" ; then
     exit -1
 fi
 echo "Creating build environment..."
+cd $LFS/sources
